@@ -2,9 +2,9 @@ define(function(require) {
   var breeze = require('breeze');
   var Q = require('Q');
   var URI = require('URI');
-  var LIMIT = 10;
-  var MAX_RESULTS = 20;
-  var RETRIES = 1;
+  var LIMIT = 20;
+  var MAX_RESULTS = 25;
+  var RETRIES = 2;
 
   var ctor = function() {
     this.name='facebook';
